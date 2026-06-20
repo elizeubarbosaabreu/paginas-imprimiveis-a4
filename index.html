@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo de Páginas Imprimíveis - Organização</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+.container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+h1 { font-size: 32px; font-weight: 700; color: #1a365d; margin-bottom: 8px; }
+.subtitle { color: #64748b; margin-bottom: 32px; font-size: 16px; }
+.header-bar { width: 80px; height: 4px; background: linear-gradient(90deg, #1a365d, #0d9488); border-radius: 2px; margin-bottom: 24px; }
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 24px; margin-bottom: 40px; }
+.cat-card { background: white; border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04); border: 1px solid #e2e8f0; transition: transform 0.2s; }
+.cat-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.cat-title { font-size: 18px; font-weight: 600; color: #1a365d; margin-bottom: 6px; }
+.cat-desc { font-size: 13px; color: #64748b; margin-bottom: 12px; line-height: 1.5; }
+.cat-stats { font-size: 12px; color: #94a3b8; }
+.cat-link { display: inline-block; margin-top: 8px; padding: 6px 16px; background: #1a365d; color: white; text-decoration: none; border-radius: 6px; font-size: 13px; transition: background 0.2s; }
+.cat-link:hover { background: #0f2440; }
+.page-list { margin-top: 12px; }
+.page-item { font-size: 12px; color: #475569; padding: 2px 0; border-bottom: 1px solid #f1f5f9; display: flex; justify-content: space-between; }
+.page-count { color: #94a3b8; font-size: 11px; }
+footer { text-align: center; padding: 40px 0; color: #94a3b8; font-size: 13px; border-top: 1px solid #e2e8f0; }
+footer a { color: #64748b; text-decoration: none; }
+footer a:hover { color: #1a365d; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; background: #e2e8f0; color: #475569; }
+.nav { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px; }
+.nav a { padding: 4px 12px; background: white; border: 1px solid #e2e8f0; border-radius: 6px; text-decoration: none; color: #475569; font-size: 13px; }
+.nav a:hover { background: #1a365d; color: white; border-color: #1a365d; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header-bar"></div>
+  <h1>📄 Catálogo de Páginas Imprimíveis</h1>
+  <p class="subtitle">1552 páginas em HTML + SVG · A4 (210×297mm) · Design Profissional</p>
+  
+  <div class="nav">
+    <a href="#GTD_Metodo">GTD Método</a><a href="#Bullet_Journal">Bullet Journal</a><a href="#Planner">Planner</a><a href="#Agenda">Agenda</a><a href="#Scrum">Scrum & Agile</a><a href="#Formularios">Formulários</a><a href="#Planejamento_Financeiro">Planejamento Financeiro</a><a href="#Estudos">Estudos</a><a href="#Produtividade">Produtividade</a><a href="#Empreendedorismo">Empreendedorismo</a><a href="#RH">Recursos Humanos</a><a href="#Professor">Professor</a><a href="#Igreja">Igreja</a><a href="#Saude">Saúde</a><a href="#Organizacao_Casa">Organização da Casa</a><a href="#Pinterest_SEO">Pinterest SEO</a>
+  </div>
+
+  <div class="cat-grid">
+    <div class="cat-card" id="GTD_Metodo">
+      <div class="cat-title">📁 GTD Método</div>
+      <div class="cat-desc">Produtividade pessoal baseada no método Getting Things Done</div>
+      <div class="cat-stats">📄 100 páginas · 25 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Captura de Ideias</span></div><div class="page-item"><span>Inbox Zerado</span></div><div class="page-item"><span>Próximas Ações</span></div><div class="page-item"><span>Ações por Contexto</span></div><div class="page-item"><span>Lista de Projetos</span></div><div class="page-item"><span>Revisão Semanal</span></div><div class="page-item"><span>Planejamento Trimestral</span></div><div class="page-item"><span>Lista de Espera</span></div>
+        <div class="page-item"><span class="text-light">...e mais 17</span></div>
+      </div>
+      <a class="cat-link" href="GTD_Metodo/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Bullet_Journal">
+      <div class="cat-title">📁 Bullet Journal</div>
+      <div class="cat-desc">Diário de bordo para organização pessoal com método Bullet Journal</div>
+      <div class="cat-stats">📄 120 páginas · 30 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Future Log</span></div><div class="page-item"><span>Monthly Log</span></div><div class="page-item"><span>Weekly Log</span></div><div class="page-item"><span>Daily Log</span></div><div class="page-item"><span>Habit Tracker</span></div><div class="page-item"><span>Mood Tracker</span></div><div class="page-item"><span>Controle de Leitura</span></div><div class="page-item"><span>Filmes Assistidos</span></div>
+        <div class="page-item"><span class="text-light">...e mais 22</span></div>
+      </div>
+      <a class="cat-link" href="Bullet_Journal/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Planner">
+      <div class="cat-title">📁 Planner</div>
+      <div class="cat-desc">Planejamento pessoal e profissional em diversas escalas de tempo</div>
+      <div class="cat-stats">📄 100 páginas · 25 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Planner Diário</span></div><div class="page-item"><span>Planner Semanal</span></div><div class="page-item"><span>Planner Mensal</span></div><div class="page-item"><span>Planner Anual</span></div><div class="page-item"><span>Planejamento de Projetos</span></div><div class="page-item"><span>Planejamento de Conteúdo</span></div><div class="page-item"><span>Planejamento Estratégico</span></div><div class="page-item"><span>Planejamento Acadêmico</span></div>
+        <div class="page-item"><span class="text-light">...e mais 17</span></div>
+      </div>
+      <a class="cat-link" href="Planner/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Agenda">
+      <div class="cat-title">📁 Agenda</div>
+      <div class="cat-desc">Agendas profissionais e pessoais para compromissos e tarefas</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Agenda Diária</span></div><div class="page-item"><span>Agenda Semanal</span></div><div class="page-item"><span>Agenda Mensal</span></div><div class="page-item"><span>Agenda Permanente</span></div><div class="page-item"><span>Agenda Datada</span></div><div class="page-item"><span>Agenda Executiva</span></div><div class="page-item"><span>Agenda Estudantil</span></div><div class="page-item"><span>Agenda Profissional</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="Agenda/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Scrum">
+      <div class="cat-title">📁 Scrum & Agile</div>
+      <div class="cat-desc">Metodologias ágeis para gestão de projetos e equipes</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Product Backlog</span></div><div class="page-item"><span>Sprint Backlog</span></div><div class="page-item"><span>Sprint Planning</span></div><div class="page-item"><span>Daily Scrum</span></div><div class="page-item"><span>Sprint Review</span></div><div class="page-item"><span>Sprint Retrospective</span></div><div class="page-item"><span>Kanban Board</span></div><div class="page-item"><span>Burndown Chart</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="Scrum/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Formularios">
+      <div class="cat-title">📁 Formulários</div>
+      <div class="cat-desc">Formulários profissionais para gestão de negócios e serviços</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Cadastro de Clientes</span></div><div class="page-item"><span>Cadastro de Alunos</span></div><div class="page-item"><span>Cadastro de Pacientes</span></div><div class="page-item"><span>Checklist Geral</span></div><div class="page-item"><span>Formulário de Inspeção</span></div><div class="page-item"><span>Registro de Ocorrências</span></div><div class="page-item"><span>Solicitação de Serviços</span></div><div class="page-item"><span>Ordem de Serviço</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="Formularios/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Planejamento_Financeiro">
+      <div class="cat-title">📁 Planejamento Financeiro</div>
+      <div class="cat-desc">Controle e planejamento de finanças pessoais e empresariais</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Orçamento Mensal</span></div><div class="page-item"><span>Controle de Despesas</span></div><div class="page-item"><span>Controle de Receitas</span></div><div class="page-item"><span>Fluxo de Caixa</span></div><div class="page-item"><span>Metas Financeiras</span></div><div class="page-item"><span>Controle de Investimentos</span></div><div class="page-item"><span>Planejamento de Aposentadoria</span></div><div class="page-item"><span>Controle de Dívidas</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="Planejamento_Financeiro/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Estudos">
+      <div class="cat-title">📁 Estudos</div>
+      <div class="cat-desc">Ferramentas para otimização de aprendizado e organização acadêmica</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Plano de Estudos</span></div><div class="page-item"><span>Cronograma de Estudos</span></div><div class="page-item"><span>Pomodoro Tracker</span></div><div class="page-item"><span>Revisão Espaçada</span></div><div class="page-item"><span>Flashcards</span></div><div class="page-item"><span>Resumo Cornell</span></div><div class="page-item"><span>Mapa Mental</span></div><div class="page-item"><span>Controle de Provas</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="Estudos/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Produtividade">
+      <div class="cat-title">📁 Produtividade</div>
+      <div class="cat-desc">Métodos e ferramentas para produtividade pessoal e profissional</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Matriz Eisenhower</span></div><div class="page-item"><span>Método Pomodoro</span></div><div class="page-item"><span>Time Blocking</span></div><div class="page-item"><span>Planejamento Semanal</span></div><div class="page-item"><span>Lista de Tarefas</span></div><div class="page-item"><span>Controle de Hábitos</span></div><div class="page-item"><span>Rastreador de Metas</span></div><div class="page-item"><span>Planejamento Trimestral</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="Produtividade/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Empreendedorismo">
+      <div class="cat-title">📁 Empreendedorismo</div>
+      <div class="cat-desc">Ferramentas de gestão empresarial e planejamento estratégico</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Business Model Canvas</span></div><div class="page-item"><span>Lean Canvas</span></div><div class="page-item"><span>Análise SWOT</span></div><div class="page-item"><span>Plano de Negócios</span></div><div class="page-item"><span>Funil de Vendas</span></div><div class="page-item"><span>CRM Simplificado</span></div><div class="page-item"><span>Planejamento de Lançamentos</span></div><div class="page-item"><span>Controle de Campanhas</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="Empreendedorismo/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="RH">
+      <div class="cat-title">📁 Recursos Humanos</div>
+      <div class="cat-desc">Gestão de pessoas e processos de RH</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Controle de Entrevistas</span></div><div class="page-item"><span>Avaliação de Desempenho</span></div><div class="page-item"><span>Onboarding</span></div><div class="page-item"><span>Treinamentos</span></div><div class="page-item"><span>Plano de Desenvolvimento Individual</span></div><div class="page-item"><span>Banco de Talentos</span></div><div class="page-item"><span>Ficha de Funcionário</span></div><div class="page-item"><span>Controle de Ponto</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="RH/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Professor">
+      <div class="cat-title">📁 Professor</div>
+      <div class="cat-desc">Ferramentas para docência e gestão educacional</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Plano de Aula</span></div><div class="page-item"><span>Diário de Classe</span></div><div class="page-item"><span>Controle de Notas</span></div><div class="page-item"><span>Frequência</span></div><div class="page-item"><span>Planejamento Semestral</span></div><div class="page-item"><span>Planejamento Anual</span></div><div class="page-item"><span>Registro de Conteúdo</span></div><div class="page-item"><span>Avaliação de Alunos</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="Professor/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Igreja">
+      <div class="cat-title">📁 Igreja</div>
+      <div class="cat-desc">Gestão e organização de ministérios e atividades eclesiásticas</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Escala Ministerial</span></div><div class="page-item"><span>Controle de Membros</span></div><div class="page-item"><span>Planejamento de Eventos</span></div><div class="page-item"><span>Agenda Pastoral</span></div><div class="page-item"><span>Controle Financeiro</span></div><div class="page-item"><span>Relatório de Visitas</span></div><div class="page-item"><span>Cadastro de Membros</span></div><div class="page-item"><span>Controle de Dízimos</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="Igreja/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Saude">
+      <div class="cat-title">📁 Saúde</div>
+      <div class="cat-desc">Monitoramento de saúde e bem-estar pessoal</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Diário Alimentar</span></div><div class="page-item"><span>Controle de Peso</span></div><div class="page-item"><span>Pressão Arterial</span></div><div class="page-item"><span>Glicemia</span></div><div class="page-item"><span>Exercícios Físicos</span></div><div class="page-item"><span>Consultas Médicas</span></div><div class="page-item"><span>Medicações</span></div><div class="page-item"><span>Registro de Sintomas</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="Saude/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Organizacao_Casa">
+      <div class="cat-title">📁 Organização da Casa</div>
+      <div class="cat-desc">Gestão e organização do lar e rotina doméstica</div>
+      <div class="cat-stats">📄 96 páginas · 24 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Limpeza Semanal</span></div><div class="page-item"><span>Limpeza Mensal</span></div><div class="page-item"><span>Inventário Doméstico</span></div><div class="page-item"><span>Lista de Compras</span></div><div class="page-item"><span>Controle de Manutenção</span></div><div class="page-item"><span>Planejamento de Refeições</span></div><div class="page-item"><span>Organização da Despensa</span></div><div class="page-item"><span>Limpeza da Cozinha</span></div>
+        <div class="page-item"><span class="text-light">...e mais 16</span></div>
+      </div>
+      <a class="cat-link" href="Organizacao_Casa/html/">Abrir →</a>
+    </div>
+    <div class="cat-card" id="Pinterest_SEO">
+      <div class="cat-title">📁 Pinterest SEO</div>
+      <div class="cat-desc">Otimização para Pinterest com títulos, descrições e hashtags</div>
+      <div class="cat-stats">📄 80 páginas · 20 modelos</div>
+      <div class="page-list">
+        <div class="page-item"><span>Títulos Otimizados</span></div><div class="page-item"><span>Descrições SEO</span></div><div class="page-item"><span>Palavras-chave</span></div><div class="page-item"><span>Hashtags</span></div><div class="page-item"><span>Nomes SEO para Arquivos</span></div><div class="page-item"><span>Planejamento de Pins</span></div><div class="page-item"><span>Calendário de Pins</span></div><div class="page-item"><span>Análise de Tendências</span></div>
+        <div class="page-item"><span class="text-light">...e mais 12</span></div>
+      </div>
+      <a class="cat-link" href="Pinterest_SEO/html/">Abrir →</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Criado por <a href="http://www.elizeubarbosa.com.br">Elizeu B. Abreu</a> · 
+    <a href="https://sofagospel.blogspot.com">Sofá Gospel</a></p>
+    <p style="margin-top:8px;font-size:12px">Todas as páginas em tamanho A4 · Prontas para impressão</p>
+  </footer>
+</div>
+</body>
+</html>

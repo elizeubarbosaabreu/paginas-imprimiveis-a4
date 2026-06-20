@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297" width="210mm" height="297mm">
+<rect x="0" y="0" width="210" height="297" fill="#fdf2f8"/>
+<rect x="15" y="18" width="180" height="1.5" rx="0.75" fill="#881337"/>
+<text x="15" y="27" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#881337">Orçamento de RH</text>
+<text x="15" y="32" font-family="Inter, sans-serif" font-size="4" fill="#64748b">Recursos Humanos</text>
+<rect x="15" y="39" width="180" height="8" fill="white" stroke="#e2e8f0" stroke-width="0.3" rx="1.5"/>
+<text x="18" y="43" font-family="Inter, sans-serif" font-size="3.5" font-weight="600" fill="#1a365d">💰 Controle Financeiro</text>
+<rect x="15" y="51" width="180" height="30" fill="white" stroke="#e2e8f0" stroke-width="0.3" rx="1.5"/>
+<text x="18" y="55" font-family="Inter, sans-serif" font-size="3.5" font-weight="600" fill="#1a365d"></text>
+<rect x="18" y="55" width="58" height="16" fill="#f0fdf4" stroke="#16a34a" stroke-width="0.3" rx="1.5"/>
+  <text x="47" y="61" font-size="5" font-weight="700" fill="#16a34a" text-anchor="middle">R$ 6000.00</text>
+  <text x="47" y="66" font-size="2.5" fill="#64748b" text-anchor="middle">Receitas</text>
+  <rect x="79" y="55" width="58" height="16" fill="#fef2f2" stroke="#dc2626" stroke-width="0.3" rx="1.5"/>
+  <text x="108" y="61" font-size="5" font-weight="700" fill="#dc2626" text-anchor="middle">R$ 3900.00</text>
+  <text x="108" y="66" font-size="2.5" fill="#64748b" text-anchor="middle">Despesas</text>
+  <rect x="140" y="55" width="58" height="16" fill="#f0fdfa" stroke="#0d9488" stroke-width="0.3" rx="1.5"/>
+  <text x="169" y="61" font-size="5" font-weight="700" fill="#0d9488" text-anchor="middle">R$ 2100.00</text>
+  <text x="169" y="66" font-size="2.5" fill="#64748b" text-anchor="middle">Saldo</text>
+<rect x="18" y="73" width="43.5" height="5" fill="#1a365d" rx="0.5"/>
+    <text x="39.75" y="76.5" font-size="2.8" fill="white" text-anchor="middle">Categoria</text><rect x="61.5" y="73" width="43.5" height="5" fill="#1a365d" rx="0.5"/>
+    <text x="83.25" y="76.5" font-size="2.8" fill="white" text-anchor="middle">Orçado</text><rect x="105" y="73" width="43.5" height="5" fill="#1a365d" rx="0.5"/>
+    <text x="126.75" y="76.5" font-size="2.8" fill="white" text-anchor="middle">Gasto</text><rect x="148.5" y="73" width="43.5" height="5" fill="#1a365d" rx="0.5"/>
+    <text x="170.25" y="76.5" font-size="2.8" fill="white" text-anchor="middle">Saldo</text><rect x="18" y="78.3" width="174" height="6" fill="#f8fafc" rx="0.3"/><text x="39.75" y="82.3" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">Alimentação</text><text x="83.25" y="82.3" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$800</text><text x="126.75" y="82.3" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$750</text><text x="170.25" y="82.3" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$50</text><rect x="18" y="84.6" width="174" height="6" fill="#ffffff" rx="0.3"/><text x="39.75" y="88.6" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">Transporte</text><text x="83.25" y="88.6" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$300</text><text x="126.75" y="88.6" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$280</text><text x="170.25" y="88.6" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$20</text><rect x="18" y="90.89999999999999" width="174" height="6" fill="#f8fafc" rx="0.3"/><text x="39.75" y="94.89999999999999" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">Moradia</text><text x="83.25" y="94.89999999999999" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$1200</text><text x="126.75" y="94.89999999999999" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$1150</text><text x="170.25" y="94.89999999999999" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$50</text><rect x="18" y="97.19999999999999" width="174" height="6" fill="#ffffff" rx="0.3"/><text x="39.75" y="101.19999999999999" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">Lazer</text><text x="83.25" y="101.19999999999999" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$400</text><text x="126.75" y="101.19999999999999" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$350</text><text x="170.25" y="101.19999999999999" font-size="2.5" fill="#1e293b" text-anchor="middle" dominant-baseline="central">R$50</text>
+<line x1="15" y1="274" x2="195" y2="274" stroke="#e2e8f0" stroke-width="0.3"/>
+<text x="105" y="279" font-family="Inter, sans-serif" font-size="3.5" fill="#64748b" text-anchor="middle">Criado por Elizeu B. Abreu · www.elizeubarbosa.com.br · sofagospel.blogspot.com</text>
+</svg>
